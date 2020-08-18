@@ -1,6 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import MyButton from "./components/MyButton";
 
 function App() {
   return (
@@ -8,7 +9,14 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          JS lesson 1
+          <MyButton title="Tryck här" />
+          <MyButton title="Eller här" />
+          <MyButton title="Varför inte här" />
+        </p>
+
+        <p>
+          <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
